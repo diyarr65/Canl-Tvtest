@@ -1,0 +1,117 @@
+[
+    {
+        "name": "TRT 1",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/TRT_1_logo_%282021-%29.svg/960px-TRT_1_logo_%282021-%29.svg.png",
+        "urls": [
+            "https://tv-trt1.medya.trt.com.tr/master.m3u8"
+        ]
+    },
+    {
+        "name": "TRT Haber",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/TRT_Haber_Eyl%C3%BCl_2020_Logo.svg/960px-TRT_Haber_Eyl%C3%BCl_2020_Logo.svg.png",
+        "urls": [
+            "https://tv-trthaber.medya.trt.com.tr/master.m3u8"
+        ]
+    },
+    {
+        "name": "TRT Çocuk",
+        "logo": "",
+        "urls": []
+    },
+    {
+        "name": "TRT Belgesel",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/TRT_Belgesel_logo_%282019-%29.svg/960px-TRT_Belgesel_logo_%282019-%29.svg.png",
+        "urls": [
+            "http://hls127.freeott.top:8080/TRT_BELGESEL_TR/video.m3u8"
+        ]
+    },
+    {
+        "name": "TRT Spor",
+        "logo": "https://i.imgur.com/6tv0zxh.png",
+        "urls": [
+            "https://corestream.siteyaptim.live/trt-spor/index.m3u8",
+            "https://trt.daioncdn.net/trtspor-yildiz/master.m3u8?app=web&platform=trtspor"
+        ]
+    },
+    {
+        "name": "Kanal D",
+        "logo": "https://i.imgur.com/9o1atM6.png",
+        "urls": [
+            "https://demiroren.daioncdn.net/kanald/kanald.m3u8?app=kanald_web&ce=3"
+        ]
+    },
+    {
+        "name": "ATV",
+        "logo": "https://i.imgur.com/HyVUwFC.png",
+        "urls": [
+            "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_1080p.m3u8",
+            "https://cdn-alanyatv.yayin.com.tr/alanyatv/alanyatv/playlist.m3u8",
+            "https://flask-api-hls-atvavrupahdtrkvz-live.onrender.com/hls_stream/master.m3u8"
+        ]
+    },
+    {
+        "name": "TV8",
+        "logo": "https://upload.wikimedia.org/wikipedia/tr/thumb/6/68/Tv8_Yeni_Logo.png/960px-Tv8_Yeni_Logo.png",
+        "urls": [
+            "https://tv8.daioncdn.net/tv8/tv8.m3u8?app=7ddc255a-ef47-4e81-ab14-c0e5f2949788&ce=3"
+        ]
+    },
+    {
+        "name": "NOW",
+        "logo": "https://i.imgur.com/5EYjWK7.png",
+        "urls": [
+            "https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv.m3u8"
+        ]
+    },
+    {
+        "name": "Kanal 7",
+        "logo": "https://i.imgur.com/0gq9xOm.png",
+        "urls": [
+            "https://kanal7.blutv.com/blutv_kanal7_live/live.m3u8",
+            "https://livetv.radyotvonline.net/kanal7live/kanal7avr/playlist.m3u8"
+        ]
+    },
+    {
+        "name": "Habertürk",
+        "logo": "",
+        "urls": []
+    },
+    {
+        "name": "NTV",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/NTV_%28Turkey%29_logo.svg/960px-NTV_%28Turkey%29_logo.svg.png",
+        "urls": [
+            "https://dogus.daioncdn.net/ntv/ntv.m3u8?app=ntv_web"
+        ]
+    },
+    {
+        "name": "CNN Türk",
+        "logo": "",
+        "urls": []
+    },
+    {
+        "name": "A Spor",
+        "logo": "https://i.imgur.com/ZhkZzLf.png",
+        "urls": [
+            "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor.m3u8"
+        ]
+    },
+    {
+        "name": "Show TV",
+        "logo": "",
+        "urls": []
+    },
+    {
+        "name": "Star TV",
+        "logo": "https://i.imgur.com/9O3DHRB.png",
+        "urls": [
+            "https://dogus.daioncdn.net/startv/startv_720p.m3u8?app=a20ac41e-bdc3-4aa1-934d-26b484480ac9&ce=3&sid=8l4w3lst4co5"
+        ]
+    },
+    {
+        "name": "Beyaz TV",
+        "logo": "https://i.imgur.com/uykIdML.png",
+        "urls": [
+            "https://mn-nl.mncdn.com/blutv_beyaztv2/live.m3u8"
+        ]
+    }
+]
