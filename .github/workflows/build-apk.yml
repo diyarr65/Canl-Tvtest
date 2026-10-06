@@ -14,6 +14,14 @@ jobs:
       with:
         node-version: '20'
     - run: npm install
+    
+    # Yeni Eklenen Adım: Dosyaları Capacitor'un istediği formata sokar
+    - name: Web Klasörünü Hazırla
+      run: |
+        mkdir www
+        cp index.html www/
+        sed -i 's/"webDir": "."/"webDir": "www"/g' capacitor.config.json
+        
     - run: |
         npx cap add android
         npx cap sync android
