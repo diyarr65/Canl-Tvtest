@@ -1,0 +1,6 @@
+{
+  "appId": "com.diyartv.akis",
+  "appName": "AKIŞ",
+  "webDir": ".",
+  "bundledWebRuntime": false
+}
