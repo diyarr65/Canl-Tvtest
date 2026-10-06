@@ -1,0 +1,26 @@
+name: Her Sabah Kanalları Guncelle
+
+on:
+  schedule:
+    - cron: '0 3 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-channels:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+      - name: Kütüphaneleri Kur
+        run: pip install aiohttp
+      - name: Linkleri Güncelle
+        run: python Kanal.py
+      - name: Kaydet ve Pushla
+        run: |
+          git config --global user.name "GitHub Action Bot"
+          git config --global user.email "action@github.com"
+          git add channels.json
+          git commit -m "Otomatik kanal güncellemesi" || exit 0
+          git push
