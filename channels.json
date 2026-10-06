@@ -68,6 +68,8 @@
         "logo": "https://i.imgur.com/0gq9xOm.png",
         "urls": [
             "https://kanal7.blutv.com/blutv_kanal7_live/live.m3u8",
+            "https://kanal7dvr.blutv.com/blutv_kanal7_dvr2/live_720p2000000kbps/index.m3u8",
+            "https://kanal7-live.daioncdn.net/kanal7/kanal7.m3u8",
             "https://livetv.radyotvonline.net/kanal7live/kanal7avr/playlist.m3u8"
         ]
     },
