@@ -3,14 +3,12 @@ import json
 import ssl
 import re
 
-# SSL Hatalarını Yoksay
 ctx = ssl.create_default_context()
 ctx.check_hostname = False
 ctx.verify_mode = ssl.CERT_NONE
 
 M3U_URL = "https://iptv-org.github.io/iptv/countries/tr.m3u"
 
-# Uygulamada her zaman kalacak sabit kanallar
 WANTED_CHANNELS = [
     "TRT 1", "TRT Haber", "TRT Çocuk", "TRT Belgesel", "TRT Spor",
     "Kanal D", "ATV", "TV8", "NOW", "Kanal 7", "Habertürk",
@@ -18,17 +16,19 @@ WANTED_CHANNELS = [
 ]
 
 def fetch_and_parse():
-    print("M3U listesi indiriliyor...")
     req = urllib.request.Request(M3U_URL, headers={'User-Agent': 'Mozilla/5.0'})
     try:
         response = urllib.request.urlopen(req, context=ctx)
         lines = response.read().decode('utf-8').split('\n')
-    except Exception as e:
-        print(f"Bağlantı hatası: {e}")
+    except Exception:
         return []
 
-    # Kanalları silinmemek üzere sabit bir sözlükte (dictionary) oluştur
     channel_dict = {ch: {"name": ch, "logo": "", "urls": []} for ch in WANTED_CHANNELS}
+
+    # KANAL 7 VIP LİNKLERİ (Uygulama önce bunları dener)
+    channel_dict["Kanal 7"]["urls"].append("https://kanal7.blutv.com/blutv_kanal7_live/live.m3u8")
+    channel_dict["Kanal 7"]["urls"].append("https://kanal7dvr.blutv.com/blutv_kanal7_dvr2/live_720p2000000kbps/index.m3u8")
+    channel_dict["Kanal 7"]["urls"].append("https://kanal7-live.daioncdn.net/kanal7/kanal7.m3u8")
 
     current_name = ""
     current_logo = ""
@@ -42,11 +42,9 @@ def fetch_and_parse():
         elif line.startswith('http') and current_name:
             for wanted in WANTED_CHANNELS:
                 if wanted.lower() in current_name.lower():
-                    # Linki alternatifler arasına ekle (Aynı link 2 kere eklenmez)
                     if line.strip() not in channel_dict[wanted]["urls"]:
                         channel_dict[wanted]["urls"].append(line.strip())
                     
-                    # Eğer kanalın logosu boşsa ekle
                     if not channel_dict[wanted]["logo"] and current_logo:
                         channel_dict[wanted]["logo"] = current_logo
                     break
@@ -59,7 +57,6 @@ def main():
     channels = fetch_and_parse()
     with open("channels.json", "w", encoding="utf-8") as f:
         json.dump(channels, f, ensure_ascii=False, indent=4)
-    print("Kanallar güncellendi! Hiçbir kanal silinmedi, alternatif linkler eklendi.")
 
 if __name__ == "__main__":
     main()
