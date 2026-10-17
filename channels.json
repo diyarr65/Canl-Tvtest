@@ -3,14 +3,16 @@
         "name": "TRT 1",
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/TRT_1_logo_%282021-%29.svg/960px-TRT_1_logo_%282021-%29.svg.png",
         "urls": [
-            "https://tv-trt1.medya.trt.com.tr/master.m3u8"
+            "https://tv-trt1.medya.trt.com.tr/master.m3u8",
+            "https://tv-trt1.medya.trt.com.tr/master_720.m3u8"
         ]
     },
     {
         "name": "TRT Haber",
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/TRT_Haber_Eyl%C3%BCl_2020_Logo.svg/960px-TRT_Haber_Eyl%C3%BCl_2020_Logo.svg.png",
         "urls": [
-            "https://tv-trthaber.medya.trt.com.tr/master.m3u8"
+            "https://tv-trthaber.medya.trt.com.tr/master.m3u8",
+            "https://tv-trthaber.medya.trt.com.tr/master_720.m3u8"
         ]
     },
     {
@@ -22,7 +24,8 @@
         "name": "TRT Belgesel",
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/TRT_Belgesel_logo_%282019-%29.svg/960px-TRT_Belgesel_logo_%282019-%29.svg.png",
         "urls": [
-            "http://hls127.freeott.top:8080/TRT_BELGESEL_TR/video.m3u8"
+            "http://hls127.freeott.top:8080/TRT_BELGESEL_TR/video.m3u8",
+            "https://tv-trtbelgesel.medya.trt.com.tr/master_720.m3u8"
         ]
     },
     {
@@ -30,14 +33,18 @@
         "logo": "https://i.imgur.com/6tv0zxh.png",
         "urls": [
             "https://corestream.siteyaptim.live/trt-spor/index.m3u8",
-            "https://trt.daioncdn.net/trtspor-yildiz/master.m3u8?app=web&platform=trtspor"
+            "https://trt.daioncdn.net/trtspor-yildiz/master.m3u8?app=web&platform=trtspor",
+            "https://tv-trtspor1.medya.trt.com.tr/master_720.m3u8",
+            "https://tv-trtspor2.medya.trt.com.tr/master_720.m3u8"
         ]
     },
     {
         "name": "Kanal D",
         "logo": "https://i.imgur.com/9o1atM6.png",
         "urls": [
-            "https://demiroren.daioncdn.net/kanald/kanald.m3u8?app=kanald_web&ce=3"
+            "https://demiroren.daioncdn.net/kanald/kanald.m3u8?app=kanald_web&ce=3",
+            "https://demiroren-live.daioncdn.net/kanald/kanald_1080p.m3u8?app=kanald_web&ce=3",
+            "http://89.187.191.41/Kanal-D-HD-TR/video.m3u8"
         ]
     },
     {
@@ -46,7 +53,9 @@
         "urls": [
             "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_1080p.m3u8",
             "https://cdn-alanyatv.yayin.com.tr/alanyatv/alanyatv/playlist.m3u8",
-            "https://flask-api-hls-atvavrupahdtrkvz-live.onrender.com/hls_stream/master.m3u8"
+            "https://flask-api-hls-atvavrupahdtrkvz-live.onrender.com/hls_stream/master.m3u8",
+            "http://89.187.191.41/ATV-HD-TR/video.m3u8",
+            "https://tgn.bozztv.com/dvrfl05/gin-atvavrupa/tracks-v1a1/mono.m3u8"
         ]
     },
     {
@@ -60,7 +69,8 @@
         "name": "NOW",
         "logo": "https://i.imgur.com/5EYjWK7.png",
         "urls": [
-            "https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv.m3u8"
+            "https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv.m3u8",
+            "https://c.fulltvizle.com/fox/tracks-v1a1/mono.m3u8"
         ]
     },
     {
@@ -70,7 +80,8 @@
             "https://kanal7.blutv.com/blutv_kanal7_live/live.m3u8",
             "https://kanal7dvr.blutv.com/blutv_kanal7_dvr2/live_720p2000000kbps/index.m3u8",
             "https://kanal7-live.daioncdn.net/kanal7/kanal7.m3u8",
-            "https://livetv.radyotvonline.net/kanal7live/kanal7avr/playlist.m3u8"
+            "https://livetv.radyotvonline.net/kanal7live/kanal7avr/playlist.m3u8",
+            "https://livetv.radyotvonline.net/kanal7live/kanal7avr/chunklist.m3u8"
         ]
     },
     {
@@ -82,7 +93,8 @@
         "name": "NTV",
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/NTV_%28Turkey%29_logo.svg/960px-NTV_%28Turkey%29_logo.svg.png",
         "urls": [
-            "https://dogus.daioncdn.net/ntv/ntv.m3u8?app=ntv_web"
+            "https://dogus.daioncdn.net/ntv/ntv.m3u8?app=ntv_web",
+            "https://dogus.daioncdn.net/ntv/ntv_720p.m3u8"
         ]
     },
     {
@@ -94,26 +106,31 @@
         "name": "A Spor",
         "logo": "https://i.imgur.com/ZhkZzLf.png",
         "urls": [
-            "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor.m3u8"
+            "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor.m3u8",
+            "https://c.fulltvizle.com/aspor/index.m3u8"
         ]
     },
     {
         "name": "Show TV",
-        "logo": "",
-        "urls": []
+        "logo": "https://i.ibb.co/Rv0rWhZ/show.png",
+        "urls": [
+            "https://ciner-live.daioncdn.net/showtv/showtv_1080p.m3u8"
+        ]
     },
     {
         "name": "Star TV",
         "logo": "https://i.imgur.com/9O3DHRB.png",
         "urls": [
-            "https://dogus.daioncdn.net/startv/startv_720p.m3u8?app=a20ac41e-bdc3-4aa1-934d-26b484480ac9&ce=3&sid=8l4w3lst4co5"
+            "https://dogus.daioncdn.net/startv/startv_720p.m3u8?app=a20ac41e-bdc3-4aa1-934d-26b484480ac9&ce=3&sid=8l4w3lst4co5",
+            "https://dogus-live.daioncdn.net/startv/startv_720p.m3u8"
         ]
     },
     {
         "name": "Beyaz TV",
         "logo": "https://i.imgur.com/uykIdML.png",
         "urls": [
-            "https://mn-nl.mncdn.com/blutv_beyaztv2/live.m3u8"
+            "https://mn-nl.mncdn.com/blutv_beyaztv2/live.m3u8",
+            "https://beyaztv-live.daioncdn.net/beyaztv/beyaztv.m3u8"
         ]
     }
 ]
