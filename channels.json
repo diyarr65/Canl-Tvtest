@@ -24,7 +24,7 @@
         "name": "TRT Belgesel",
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/TRT_Belgesel_logo_%282019-%29.svg/960px-TRT_Belgesel_logo_%282019-%29.svg.png",
         "urls": [
-            "http://hls127.freeott.top:8080/TRT_BELGESEL_TR/video.m3u8",
+            "https://tv-trtbelgesel.medya.trt.com.tr/master.m3u8",
             "https://tv-trtbelgesel.medya.trt.com.tr/master_720.m3u8"
         ]
     },
